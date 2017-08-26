@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: 'SF';
-  src: url(../fonts/SF.ttf);
+  font-family: 'DolceVitaLight';
+  src: url(../fonts/DolceVitaLight.ttf);
 }
 
 body {
@@ -154,9 +154,9 @@ a:hover,a:focus {
 		padding:0;
 	}
 	.intro .intro-body .brand-heading {
-		font-family:'SF',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
-		text-transform: uppercase;
-   		font-size:100px;
+		font-family:'DolceVitaLight',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
+		text-transform: none;
+   		font-size:80px;
 		margin-top:90px;
 		margin-bottom:20px;
 		border-top:2px solid #fff;
@@ -166,7 +166,7 @@ a:hover,a:focus {
 	}
 	.intro .intro-body .intro-text {
 		font-family:'HighTide',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
-		font-size:20px;
+		font-size:40px;
 			font-weight:300;
 			letter-spacing:3px;
 	}
