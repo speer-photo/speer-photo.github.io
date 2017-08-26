@@ -60,7 +60,9 @@ a:hover,a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
 	padding:4px 6px;
 	font-size:16px;
-	color:#fff;
+	/*color:#fff;*/
+	color:#1ba39c;
+	background-color:transparent;
 }
 .navbar-custom .navbar-brand .navbar-toggle:focus,.navbar-custom .navbar-brand .navbar-toggle:active {
 	outline:0;
