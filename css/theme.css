@@ -1,6 +1,9 @@
 @font-face {
   font-family: 'HighTide';
   src: url(../fonts/HighTide.ttf);
+}
+
+@font-face {
   font-family: 'SF';
   src: url(../fonts/SF.ttf);
 }
