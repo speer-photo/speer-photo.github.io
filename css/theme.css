@@ -25,7 +25,7 @@ p {
 
 @font-face {
     font-family: "HighTide";
-    src: url("../fonts/HighTide.ttf");
+    src: url("fonts/HighTide.ttf");
 }
 
 @media(min-width:768px) {
