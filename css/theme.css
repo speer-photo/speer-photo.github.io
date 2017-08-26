@@ -150,7 +150,8 @@ a:hover,a:focus {
 	}
 	.intro .intro-body .brand-heading {
 		font-family:'HighTide',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
-   		font-size:120px;
+		text-transform: none;
+   		font-size:60px;
 		margin-top:90px;
 		margin-bottom:20px;
 		border-top:2px solid #fff;
