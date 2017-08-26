@@ -221,12 +221,12 @@ a:hover,a:focus {
 	}
 }
 .content-section {
-	padding:40px 0;
+	padding:5px 0; /* padding:40px 0; */
 	clear:both;
 }
 @media(min-width:767px) {
 	.content-section {
-		padding:150px 0;
+		padding:0px 0; /* padding:150px 0; */
 			 clear:both;
 	}
 }
