@@ -406,8 +406,12 @@ img {
 	top:0;
 	bottom:0;
 	/*background:rgba(0,0,0,0.3);*/
-	/*background:radial-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.8));*/
-	background-image:url('../img/genres/test.gif')
+	background:radial-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.8));
+	
+	content: attr(title);
+	
+	
+	/*background-image:url('../img/genres/test.gif')*/
 	content:"";
 	opacity:0;
 	-webkit-transition:all 0.3s linear;
