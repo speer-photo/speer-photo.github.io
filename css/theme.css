@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'HighTide';
-  src: url(../fonts/HighTide.ttf);
+  font-family: 'NeouThin';
+  src: url(../fonts/NeouThin.ttf);
 }
 
 @font-face {
@@ -157,7 +157,7 @@ a:hover,a:focus {
 	.intro .intro-body .brand-heading {
 		font-family:'DolceVitaLight',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
 		text-transform: none;
-   		font-size:80px;
+   		font-size:110px;
 		margin-top:90px;
 		margin-bottom:20px;
 		border-top:2px solid #fff;
@@ -166,7 +166,7 @@ a:hover,a:focus {
 		padding:10px 0;
 	}
 	.intro .intro-body .intro-text {
-		font-family:'HighTide',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
+		font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
 		font-size:40px;
 			font-weight:300;
 			letter-spacing:3px;
