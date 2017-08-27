@@ -399,12 +399,13 @@ img {
 }
 .gallery ul li a:hover:before {
 	top:50%;
-		content:"test sechs";
+		text-align: center;
+		content:"test sieben";
 		font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
 		font-size:40px;
 		color:#fff;
-		text-align: center;
-	opacity:1;
+		
+	opacity:0.8;
 }
 .gallery ul li a:after {
 	position:absolute;
