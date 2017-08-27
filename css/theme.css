@@ -386,8 +386,10 @@ img {
 	position:absolute;
 		text-align:middle;
 		/*text-transform:none;*/
-	width:32px;
-	height:32px;
+	/*width:32px;
+	height:32px;*/
+		width:100%;
+		height:100%;
 	/*top:40%;*/
 	top:calc(50%+20px);
 	/*left:50%;*/
@@ -406,7 +408,7 @@ img {
 		width:100%;
 		text-align:middle;
 		text-transform:none;
-		content:"vier undzwanzig";
+		content:"fünf undzwanzig";
 		/*transform: translateX(25%);*/
 		font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
 		font-size:40px;
