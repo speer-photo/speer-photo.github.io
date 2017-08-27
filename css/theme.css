@@ -384,8 +384,8 @@ img {
 }
 .gallery ul li a:before {
 	position:absolute;
-		/*text-align:center;
-		text-transform:none;*/
+		text-align:middle;
+		/*text-transform:none;*/
 	width:32px;
 	height:32px;
 	/*top:40%;*/
@@ -393,7 +393,7 @@ img {
 	/*left:50%;*/
 	/*left:0%;*/
 	/*margin:-14px 0 0 -16px;*/
-	content:"test";
+	content:"";
 	opacity:0;
 	z-index:1;
 	-webkit-transition:all 0.3s linear;
@@ -406,7 +406,7 @@ img {
 		width:100%;
 		text-align:middle;
 		text-transform:none;
-		content:"drei undzwanzig";
+		content:"vier undzwanzig";
 		/*transform: translateX(25%);*/
 		font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
 		font-size:40px;
