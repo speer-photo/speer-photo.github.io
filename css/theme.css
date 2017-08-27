@@ -384,8 +384,8 @@ img {
 }
 .gallery ul li a:before {
 	position:absolute;
-		/*text-align: center;
-		text-transform:none;*/
+		text-align:center;
+		text-transform:none;
 	width:32px;
 	height:32px;
 	/*top:40%;*/
@@ -406,7 +406,7 @@ img {
 		width:100%;
 		text-align:middle;
 		text-transform:none;
-		content:"test neunzehn";
+		content:"test zwanzig";
 		/*transform: translateX(25%);*/
 		font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
 		font-size:40px;
