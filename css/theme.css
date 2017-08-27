@@ -402,10 +402,10 @@ img {
 .gallery ul li a:hover:before {
 		/*position:absolute;*/
 	top:50%;
-		/*width:100%;*/
-		text-align: center;
+		width:100%;
+		text-align:center;
 		text-transform:none;
-		content:"test zehn";
+		content:"test elf";
 		font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
 		font-size:40px;
 		color:#fff;
