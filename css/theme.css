@@ -405,7 +405,8 @@ img {
 		width:100%;
 		text-align:left;
 		text-transform:none;
-		content:"test dreizehn";
+		content:"test vierzehn";
+		transform: translateX(-50%);
 		font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
 		font-size:40px;
 		color:#fff;
