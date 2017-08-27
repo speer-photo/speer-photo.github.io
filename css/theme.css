@@ -400,12 +400,12 @@ img {
 	transition:all 0.3s linear;
 }
 .gallery ul li a:hover:before {
-		position:absolute;
+		/*position:absolute;*/
 	top:50%;
 		width:100%;
 		text-align: center;
 		text-transform:none;
-		content:"test acht";
+		content:"test neun";
 		font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
 		font-size:40px;
 		color:#fff;
