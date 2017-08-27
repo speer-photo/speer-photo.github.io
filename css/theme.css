@@ -403,10 +403,10 @@ img {
 		/*position:absolute;*/
 	top:50%;
 		width:100%;
-		text-align:left;
+		text-align:right;
 		text-transform:none;
-		content:"test fünfzehn";
-		transform: translateX(-25%);
+		content:"test sechzehn";
+		transform: translateX(25%);
 		font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
 		font-size:40px;
 		color:#fff;
