@@ -423,7 +423,7 @@ img {
 
 
 .gallery ul li a .genre-text {
-	display: none;
+	/*display: none;*/
 	position:absolute;
 	width:100%;
 	top:50%;
