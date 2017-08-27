@@ -403,9 +403,9 @@ img {
 		/*position:absolute;*/
 	top:50%;
 		width:100%;
-		/*text-align:center;*/
+		text-align:left;
 		text-transform:none;
-		content:"test zwölf";
+		content:"test dreizehn";
 		font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
 		font-size:40px;
 		color:#fff;
