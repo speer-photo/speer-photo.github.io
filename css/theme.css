@@ -408,9 +408,11 @@ img {
 	bottom:0;
 	/*background:rgba(0,0,0,0.3);*/
 	background:radial-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.8));
-		content:"test one";
+		content:"test two";
 		font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
 		font-size:40px;
+		color:#fff;
+		display: table-cell;
 		vertical-align: middle;
 		text-align: center;
 	opacity:0;
