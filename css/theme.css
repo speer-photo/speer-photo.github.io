@@ -389,11 +389,11 @@ img {
 	width:32px;
 	height:32px;
 	/*top:40%;*/
-	top:50%-20px;
+	top:calc(50%+20px);
 	/*left:50%;*/
 	/*left:0%;*/
-	margin:-14px 0 0 -16px;
-	content:"";
+	/*margin:-14px 0 0 -16px;*/
+	content:"test";
 	opacity:0;
 	z-index:1;
 	-webkit-transition:all 0.3s linear;
@@ -406,7 +406,7 @@ img {
 		width:100%;
 		text-align:middle;
 		text-transform:none;
-		content:"zwei undzwanzig";
+		content:"drei undzwanzig";
 		/*transform: translateX(25%);*/
 		font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
 		font-size:40px;
