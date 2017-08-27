@@ -412,8 +412,8 @@ img {
 		font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
 		font-size:40px;
 		color:#fff;
-		display: table-cell;
-		vertical-align: middle;
+		top:50%;
+		/*vertical-align: middle;*/
 		text-align: center;
 	opacity:0;
 	-webkit-transition:all 0.3s linear;
