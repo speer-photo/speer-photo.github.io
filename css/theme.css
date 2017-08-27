@@ -384,6 +384,8 @@ img {
 }
 .gallery ul li a:before {
 	position:absolute;
+		text-align: center;
+		text-transform:none;
 	width:32px;
 	height:32px;
 	top:40%;
@@ -393,14 +395,17 @@ img {
 	content:"";
 	opacity:0;
 	z-index:1;
-	-webkit-transition:all 0.5s linear;
-	-moz-transition:all 0.5s linear;
-	transition:all 0.5s linear;
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	transition:all 0.3s linear;
 }
 .gallery ul li a:hover:before {
+		position:absolute;
 	top:50%;
+		width:100%;
 		text-align: center;
-		content:"test sieben";
+		text-transform:none;
+		content:"test acht";
 		font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
 		font-size:40px;
 		color:#fff;
