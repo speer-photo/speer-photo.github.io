@@ -408,18 +408,43 @@ img {
 	bottom:0;
 	/*background:rgba(0,0,0,0.3);*/
 	background:radial-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.8));
-		content:"test three";
+	/*	content:"test three";
 		font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
 		font-size:40px;
 		color:#fff;
 		top:50%;
-		/*vertical-align: middle;*/
-		text-align: center;
+		text-align: center;*/
 	opacity:0;
 	-webkit-transition:all 0.3s linear;
 	-moz-transition:all 0.3s linear;
 	transition:all 0.3s linear;
 }
+
+
+
+
+
+.gallery ul li a:after .genre-text {
+	position:absolute;
+	width:100%;
+	top:50%;
+	bottom:0;
+	font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size:40px;
+	color:#fff;
+	text-align: center;
+	opacity:0;
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	transition:all 0.3s linear;
+}
+
+
+
+
+
+
+
 .gallery ul li a:hover:after {
 	opacity:1;
 }
