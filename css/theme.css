@@ -393,12 +393,17 @@ img {
 	content:"";
 	opacity:0;
 	z-index:1;
-	-webkit-transition:all 0.3s linear;
-	-moz-transition:all 0.3s linear;
-	transition:all 0.3s linear;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	transition:all 0.5s linear;
 }
 .gallery ul li a:hover:before {
 	top:50%;
+		content:"test fünf";
+		font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
+		font-size:40px;
+		color:#ff0000;
+		text-align: center;
 	opacity:1;
 }
 .gallery ul li a:after {
@@ -408,7 +413,7 @@ img {
 	bottom:0;
 	/*background:rgba(0,0,0,0.3);*/
 	background:radial-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.8));
-		content:"test vier";
+		content:"test fünf";
 		font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
 		font-size:40px;
 		color:#fff;
@@ -416,9 +421,9 @@ img {
 		text-align: center;
 		/*transform: translateY(-200px);*/
 	opacity:0;
-	-webkit-transition:all 0.3s linear;
-	-moz-transition:all 0.3s linear;
-	transition:all 0.3s linear;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	transition:all 0.5s linear;
 }
 
 .gallery ul li a:hover:after {
