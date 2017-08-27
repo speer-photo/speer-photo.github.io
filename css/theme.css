@@ -391,7 +391,7 @@ img {
 	/*top:40%;*/
 	top:50%;
 	/*left:50%;*/
-	left:0%;
+	/*left:0%;*/
 	margin:-14px 0 0 -16px;
 	content:"";
 	opacity:0;
@@ -406,7 +406,7 @@ img {
 		width:100%;
 		text-align:middle;
 		text-transform:none;
-		content:"test achtzehn";
+		content:"test neunzehn";
 		/*transform: translateX(25%);*/
 		font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
 		font-size:40px;
