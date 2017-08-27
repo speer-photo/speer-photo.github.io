@@ -373,7 +373,7 @@ img {
 	float:left;
 	padding:0;
 }
-.gallery ul li a {
+/*.gallery ul li a {
 	display:block;
 	position:relative;
 	width:100%;
@@ -381,8 +381,8 @@ img {
 	margin:0;
 	padding:0;
 	line-height:0;
-}
-.gallery ul li a:before {
+}*/
+/*.gallery ul li a:before {
 	position:absolute;
 	/*width:32px;
 	height:32px;*/
@@ -390,7 +390,7 @@ img {
 		height:100%;
 	/*top:40%;*/
 	top:calc(50%+20px);
-	left:50%;
+	/*left:25%;*/
 	/*left:0%;*/
 	/*margin:-14px 0 0 -16px;*/
 	content:"";
@@ -399,33 +399,41 @@ img {
 	-webkit-transition:all 0.3s linear;
 	-moz-transition:all 0.3s linear;
 	transition:all 0.3s linear;
-}
+}*/
 .gallery ul li a:hover:before {
+
+				/* OVERLAY BEI HOVER AKTIVIEREN*/
+
 		/*position:absolute;*/
 	top:50%;
-		width:100%;
-		text-align:middle;
-		text-transform:none;
-		content:"acht zwanzig";
+		/*width:100%;*/
+		/*text-align:middle;*/
+		/*text-transform:none;*/
+		/*content:"acht zwanzig";*/
 		/*transform: translateX(25%);*/
-		font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
-		font-size:40px;
-		color:#fff;
+		/*font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;*/
+		/*font-size:40px;
+		/*color:#fff;*/
 		
 	opacity:0.8;
 }
+
+
+
 .gallery ul li a:after {
+
+			/*OVERLAY BEI HOVER EINSTELLEN*/
+
 	position:absolute;
 	width:100%;
 	top:0;
 	bottom:0;
 	/*background:rgba(0,0,0,0.3);*/
-	background:radial-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.8));
-		/*content:"test fünf";
-		font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
+	background:radial-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+		content:"";
+		/*font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
 		font-size:40px;
 		color:#fff;
-		top:50%;
 		text-align: center;*/
 		/*transform: translateY(-200px);*/
 	opacity:0;
@@ -435,8 +443,64 @@ img {
 }
 
 .gallery ul li a:hover:after {
+
+			/*OVERLAY WIEDER DEAKTIVIEREN*/
+
 	opacity:1;
 }
+
+
+
+
+
+
+.gallery ul li a span
+{
+			/*TEXTOVERLAY EINSTELLEN*/
+	opacity:0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position:absolute;
+	text-align: center;
+	text-shadow: 1px 1px #000;
+	/*top=50%;*/
+	font-family:'NeouThin',"Open Sans",'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size:40px;
+	color:#fff;
+	
+}
+
+.gallery ul li a:hover span {
+			/*TEXTOVERLAY BEI HOVER ANWENDEN*/
+	opacity:1;
+	color:#fff;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	transition:all 0.5s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 section:after {
